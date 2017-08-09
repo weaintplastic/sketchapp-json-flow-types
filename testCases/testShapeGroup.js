@@ -66,7 +66,47 @@ const data: SJShapeGroupLayer = {
         "patternTileScale": 1
       }
     ],
+    "innerShadows": [{
+      "_class": "innerShadow",
+      "isEnabled": true,
+      "blurRadius": 5,
+      "color": {
+        "_class": "color",
+        "alpha": 0.3,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      "contextSettings": {
+        "_class": "graphicsContextSettings",
+        "blendMode": 0,
+        "opacity": 1
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "spread": 0
+    }],
     "miterLimit": 10,
+    "shadows": [{
+      "_class": "shadow",
+      "isEnabled": true,
+      "blurRadius": 5,
+      "color": {
+        "_class": "color",
+        "alpha": 0.28,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      "contextSettings": {
+        "_class": "graphicsContextSettings",
+        "blendMode": 0,
+        "opacity": 1
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "spread": 0
+    }],
     "startDecorationType": 0
   },
   "hasClickThrough": false,
